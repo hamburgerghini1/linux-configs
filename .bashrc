@@ -669,6 +669,8 @@ export TMPDIR=/home/tommi/tmp
 alias linutil="curl -fsSL https://christitus.com/linux | sh"
 alias linutil-dev="curl -fsSL https://christitus.com/linuxdev | sh"
 
+alias ls="eza --icons -a --group-directories-first"
+
 # disable Discord from pasting with middle click
 nohup ~/disable-discord-paste.sh >/dev/null 2>&1 &
 

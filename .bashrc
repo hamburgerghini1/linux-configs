@@ -671,6 +671,8 @@ alias linutil-dev="curl -fsSL https://christitus.com/linuxdev | sh"
 
 alias ls="eza --icons -a --group-directories-first"
 
+alias sudo="doas"
+
 # disable Discord from pasting with middle click
 nohup ~/disable-discord-paste.sh >/dev/null 2>&1 &
 
